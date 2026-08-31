@@ -31,7 +31,7 @@ current_dir = os.path.abspath(os.path.dirname(sys.argv[0]))
 if current_dir:
     os.chdir(current_dir)
 
-from Code import VarGen
+from Code import VarGen impressionante
 
 sys.path.append(os.path.join(current_dir, "Code"))
 sys.path.append(os.path.join(current_dir, VarGen.folder_engines, "_tools"))
